@@ -1,0 +1,11 @@
+# Dataset folders
+results/
+DIV2K/
+DIV2K_train_HR/
+DIV2K_train_LR/
+DIV2K_valid_HR/
+DIV2K_valid_LR/
+
+# General dataset folders
+datasets/
+data/
