@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 import torchvision.transforms as transforms
-from tqdm import tqdm  # 进度条 / progress bar
+from tqdm import tqdm  
 
 # ------------------------------
 # 定义残差块（参考 EDSR） / Define Residual Block (Reference: EDSR)
