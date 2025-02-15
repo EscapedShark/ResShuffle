@@ -63,6 +63,7 @@
   使用学习率调度器，每50个epoch将学习率乘以0.5，使学习率逐步下降。这种策略有助于在训练后期细化模型参数，稳定收敛，防止在模型收敛后出现震荡现象。
 
 ## 效果评估
+数据集来源为：https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images
 
 使用DIV2K_train_HR中的800张2K分辨率进行训练，使用DIV2K_vaild_HR进行评估，此验证集有100张2k图像
 先使用bicubic下采样得到1/4的分辨率，然后使用模型进行四倍放大分辨率，恢复原分辨率。这种情况下，平均PSNR: 27.5790，平均SSIM: 0.8031
